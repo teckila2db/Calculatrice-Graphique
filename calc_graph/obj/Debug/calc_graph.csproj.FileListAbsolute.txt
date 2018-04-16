@@ -1,0 +1,10 @@
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\bin\Debug\calc_graph.exe.config
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\bin\Debug\calc_graph.exe
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\bin\Debug\calc_graph.pdb
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.csprojResolveAssemblyReference.cache
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.Form1.resources
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.Properties.Resources.resources
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.csproj.GenerateResource.Cache
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.csproj.CoreCompileInputs.cache
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.exe
+C:\Users\sacha\Documents\isitech\c#\calc_graph\calc_graph\obj\Debug\calc_graph.pdb
