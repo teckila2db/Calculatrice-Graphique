@@ -187,7 +187,64 @@ namespace calc_graph
 
         private void Button_supr_Click(object sender, EventArgs e)
         {
+            if (this.op.Step == 1)
+            {
+                if (this.op.Nbr1_is_point == true)
+                {
+                    double nbr = this.op.Nbr1;
+                    this.op.Nbr1_point -= 1;
+                    for (int i = 0; i != this.op.Nbr1_point; i++)
+                    {
+                        nbr = nbr * 10;
+                    }
+                    int nbr2 = (int)nbr;
+                    nbr = nbr2;
+                    for (int i = 0; i != this.op.Nbr1_point; i++)
+                    {
+                        nbr = nbr / 10;
+                    }
+                    this.op.Nbr1 = nbr;
+                    if (this.op.Nbr2_point == 0)
+                        this.op.Nbr2_is_point = false;
+                }
+                else if (this.op.Nbr1_is_point == false)
+                {
+                    double nbr = this.op.Nbr1;
+                    nbr = nbr / 10;
+                    int nbr2 = (int)nbr;
+                    this.op.Nbr1 = nbr2;
+                }
+            }
 
+            if (this.op.Step == 3)
+            {
+                if (this.op.Nbr2_is_point == true)
+                {
+                    double nbr = this.op.Nbr2;
+                    this.op.Nbr2_point -= 1;
+                    for (int i = 0; i != this.op.Nbr2_point; i++)
+                    {
+                        nbr = nbr * 10;
+                    }
+                    int nbr2 = (int)nbr;
+                    nbr = nbr2;
+                    for (int i = 0; i != this.op.Nbr2_point; i++)
+                    {
+                        nbr = nbr / 10;
+                    }
+                    this.op.Nbr2 = nbr;
+                    if (this.op.Nbr2_point == 0)
+                        this.op.Nbr2_is_point = false;
+                }
+                else if (this.op.Nbr2_is_point == false)
+                {
+                    double nbr = this.op.Nbr2;
+                    nbr = nbr / 10;
+                    int nbr2 = (int)nbr;
+                    this.op.Nbr2 = nbr2;
+                }
+            }
+            this.label1.Text = this.op.Continuous_display();
         }
 
         private void Button_clear_Click(object sender, EventArgs e)
@@ -233,7 +290,5 @@ namespace calc_graph
                 this.op.Step = 3;
             }
         }
-
-     
     }
 }
